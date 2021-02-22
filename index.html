@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onepage - sample 01</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/themes/prism-tomorrow.min.css"
+  rel="stylesheet"
+/>
+
+<!-- Fork Corner Stylesheet -->
+<link 
+  href="https://cdn.jsdelivr.net/npm/fork-corner/dist/fork-corner.min.css"
+  rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="section01">
+        <div class="page01 d-w-100">
+            <nav class="navi">
+                <div class="logo d-w-10">
+                    <img src="images/logo02.png" alt="logo" class="logo-icon">
+                </div>
+                <div class="goust">
+                    <h1><a href="#">=</a></h1>
+                </div>
+
+                <ul class="menus d-w-55 text-center">
+                    <li class="d-w-10"><a href="#">경복궁 역사</a></li>
+                    <li class="d-w-10"><a href="#">관람 코스</a></li>
+                    <li class="d-w-10"><a href="#">관람 안내</a></li>
+                    <li class="d-w-10"><a href="#">행사</a></li>
+                    <li class="d-w-10"><a href="#">오시는 길</a></li>
+                </ul>
+            </nav>
+
+            <!-- navi01 end -->
+
+            <nav class="navi02">
+                <div class="menu02 d-w-100">
+                    <div class="logo02 d-w-10">
+                        <img src="images/logo02.png" alt="logo" class="logo-icon02">
+                    </div>
+
+                    <div class="goust02">
+                        <h1><a href="#">X</a></h1>
+                    </div>
+                    <ul class="menus02 text-center">
+                        <li class="text-center"><a href="#">경복궁 역사</a></li>
+                        <li><a href="#">관람 코스</a></li>
+                        <li><a href="#">관람 안내</a></li>
+                        <li><a href="#">행사</a></li>
+                        <li><a href="#">오시는 길</a></li>
+                    </ul>
+                </div>
+            </nav>
+    
+            <!-- navi02 end -->
+
+
+        </div>
+
+    </div>
+    <!-- section01 end -->
+
+
+    <div class="section02">
+        <div class="page02">
+            <div class="cloud"></div>
+         <!-- clouds end -->
+
+         <div class="section02-bg d-w-100">
+            <div class="sec02-text d-w-30 animate__animated animate__fadeIn">
+                <h1 class="history-t">경복궁의 역사</h1>
+                <p>경복궁은 조선 왕조 제일의 법궁입니다.<br>
+                    1395년 태조 이성계가 창건 하였고,<br>
+                    1592년 임진왜란으로 불타 없어졌다가,<br>
+                    고종 때인 1867년 중건되었습니다.
+                </p>
+            </div>    
+        </div>
+
+
+        </div>
+
+    </div>
+    <!-- section02 end -->
+
+    
+    <div class="section03">
+
+    </div>
+    <div class="section04">
+
+    </div>
+    <div class="section05">
+        
+    </div>
+
+
+    <!-- 제이쿼리 -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <script>
+               $(function(){
+            $(".goust").click(function(e){
+                $(".navi").css("display","none");
+                $(".navi02").css("display","block");
+                $(".sec02-text").css("display","none");
+               return false;               
+            });
+            $(".goust02").click(function(){
+                $(".navi").css("display","block");
+                $(".navi02").css("display","none");
+                $(".sec02-text").css("display","block");
+                return false;
+            });
+            });
+
+    </script>
+</body>
+</html>
