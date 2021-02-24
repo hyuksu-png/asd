@@ -37,13 +37,13 @@ body{
     z-index: 990;
 }
 .menus{
-    margin-left: 30%;
+    margin-left: 15%;
 }
 .menus li{
     margin: 20px;
     float: left;
     font-family: 'EBSHMJESaeronRA';
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 .menus li a{
     color: #fff;
@@ -159,6 +159,7 @@ p{
     position: relative;
 }
 .page03{
+    
     height: 100vh;
     background: #282828;
 }
@@ -172,6 +173,7 @@ p{
     font-size: 2.5rem;
     font-family: 'EBSHMJESaeronRA';
     color: #fff;
+    cursor: pointer;
 }
 .guide-menus02{
     float: left;
@@ -179,6 +181,7 @@ p{
     font-size: 2.5rem;
     font-family: 'EBSHMJESaeronRA';
     color: #fff;
+    cursor: pointer;
 }
 .guide-menus>li{
     padding: 3%;
@@ -186,8 +189,130 @@ p{
 .guide-menus02>li{
     padding: 3%;
 }
+.guideMap{
+    float: left;
+    padding-top: 1%;
+    padding-left: 34%;
+    /* width: 100%; */
+}
 
 
+/* 지도 버튼 */
+.guidemap-btn01{
+    position: absolute;
+    top: 80.8%;
+    right: 50.4%;
+    cursor: pointer;
+}
+.guidemap-btn02{
+    position: absolute;
+    top: 55.6%;
+    right: 36.41%;
+    cursor: pointer;
+}
+.guidemap-btn03{
+    position: absolute;
+    top: 52.29%;
+    right: 33.3%;
+    cursor: pointer;
+}
+.guidemap-btn04{
+    position: absolute;
+    top: 48.8%;
+    right: 30.6%;
+    cursor: pointer;
+}
+.guidemap-btn05{
+    position: absolute;
+    top: 44.3%;
+    right: 28.7%;
+    cursor: pointer;
+}
+.guidemap-btn06{
+    position: absolute;
+    top: 44.8%;
+    right: 18.8%;
+    cursor: pointer;
+}
+.guidemap-btn07{
+    position: absolute;
+    top: 58.2%;
+    right: 25.8%;
+    cursor: pointer;
+}
+.guidemap-btn08{
+    position: absolute;
+    top: 20.62%;
+    right: 14.1%;
+    cursor: pointer;
+}
+.guidemap-btn09{
+    position: absolute;
+    top: 13.77%;
+    right: 9%;
+    cursor: pointer;
+}
+.guidemap-btn10{
+    position: absolute;
+    top: 9.69%;
+    right: 15.1%;
+    cursor: pointer;
+}
+.guidemap-btn11{
+    position: absolute;
+    top: 5.26%;
+    right: 22.78%;
+    cursor: pointer;
+}
+.guidemap-btn12{
+    position: absolute;
+    top: 35.1%;
+    right: 32.91%;
+    cursor: pointer;
+}
+.guidemap-btn13{
+    position: absolute;
+    top: 48.1%;
+    right: 40.91%;
+    cursor: pointer;
+}
+.guidemap-btn14{
+    position: absolute;
+    top: 51.91%;
+    right: 21.34%;
+    cursor: pointer;
+}
+
+
+/* 코스 모달창 */
+.guidemodal-01{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    background-color: rgba(0, 0, 0,0.7);
+    height: 500px;
+    float: left;
+}
+.modal-img{
+    margin-top: 5%;
+    margin-left: 2%;
+    height: 300px;
+    background: #fff;
+    float: left;
+}
+.modal-story01{
+    float: left;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.modal-story01 h1{
+    color: #e2de66;
+}
+.modal-story01 p{
+    
+    font-weight: 200;
+}
+/* section03 end */
 
 
 
