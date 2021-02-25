@@ -285,33 +285,7 @@ p{
 
 
 /* 코스 모달창 */
-.guidemodal-01{
-    position: absolute;
-    top: 25%;
-    left: 35%;
-    background-color: rgba(0, 0, 0,0.7);
-    height: 500px;
-    float: left;
-}
-.modal-img{
-    margin-top: 5%;
-    margin-left: 2%;
-    height: 300px;
-    background: #fff;
-    float: left;
-}
-.modal-story01{
-    float: left;
-    margin-top: 5%;
-    margin-left: 2%;
-}
-.modal-story01 h1{
-    color: #e2de66;
-}
-.modal-story01 p{
-    
-    font-weight: 200;
-}
+
 /* section03 end */
 
 
