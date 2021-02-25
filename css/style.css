@@ -2,6 +2,9 @@
 /* reset css */
 @import url('font.css');
 /* font css */
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-size: 10px;
 }

@@ -25,8 +25,20 @@ $(function(){
         return false;
     });
     $(".navimenu01").mouseout(function(){
-        $(".navimenu01").css("color","#fff");
-        return false;
+        $(window).scroll(function(){
+            if($(this).scrollTop()>2811){
+                $(".navimenu01").css("color","#fff");
+                return false; 
+            }else  if($(this).scrollTop()>1874){
+                $(".navimenu01").css("color","#fff");
+                return false; 
+            }else  if($(this).scrollTop()>937){
+                $(".navimenu01").css("color","#f2d88f");
+                return false; 
+            }else{
+                $('.navimenu01').css("color","#fff");
+            }
+        });
     });
 
     $(".navimenu02").mouseover(function(){
