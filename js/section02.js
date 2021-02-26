@@ -366,4 +366,5 @@
                 $("#guide-map").attr("src","images/map.png");
                 return false;
             });
+
      });   
