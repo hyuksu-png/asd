@@ -24,6 +24,57 @@
             return false;
         });
 
+    $(function(){
+        $(".guidemap-btn01").click(function(){
+            $(".guidemodal-01").css("display","block");
+            var swiper = new Swiper('.swiper-container', {
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: {
+                  delay: 2800,
+                  disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    dynamicBullets: true,
+                  },
+              spaceBetween: 30,
+              effect: 'fade',
+            
+              
+              });
+              $(".guide-menu01").css("color","#f2d88f");
+              $("#guide-map").attr("src","images/mapbtn-01_on.png");
+            return false; 
+        });
+
+        $(".guide-menu01").click(function(){
+            $(".guidemodal-01").css("display","block");
+            var swiper = new Swiper('.swiper-container', {
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: {
+                  delay: 2800,
+                  disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    dynamicBullets: true,
+                  },
+              spaceBetween: 30,
+              effect: 'fade',
+            
+              
+              });
+            return false; 
+        });
+        $(".madal-close-text").click(function(){
+            $(".guidemodal-01").css("display","none");
+            $(".guide-menu01").css("color","#fff");
+            $("#guide-map").attr("src","images/map.png");
+            return false;
+        });
+    });
 
          // 코스 버튼2
          $(".guidemap-btn02").mouseover(function(){
@@ -47,6 +98,53 @@
             $(".guide-menu02").css("color","#fff");
             $("#guide-map").attr("src","images/map.png");
             return false;
+        });
+        $(function(){
+            $(".guidemap-btn02").click(function(){
+                $(".guidemodal-02").css("display","block");
+                var swiper = new Swiper('.swiper-container', {
+                    spaceBetween: 30,
+                    centeredSlides: true,
+                    autoplay: {
+                      delay: 2800,
+                      disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                        dynamicBullets: true,
+                      },
+                  spaceBetween: 30,
+                  effect: 'fade',
+                
+                  
+                  });
+                return false; 
+            });
+    
+            $(".guide-menu02").click(function(){
+                $(".guidemodal-02").css("display","block");
+                var swiper = new Swiper('.swiper-container', {
+                    spaceBetween: 30,
+                    centeredSlides: true,
+                    autoplay: {
+                      delay: 2800,
+                      disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                        dynamicBullets: true,
+                      },
+                  spaceBetween: 30,
+                  effect: 'fade',
+                
+                  
+                  });
+                return false; 
+            });
+            $(".madal-close-text").click(function(){
+                $(".guidemodal-02").css("display","none");
+                return false;
+            });
         });
 
 
@@ -74,6 +172,54 @@
                 return false;
             });
 
+            $(function(){
+                $(".guidemap-btn03").click(function(){
+                    $(".guidemodal-03").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+        
+                $(".guide-menu03").click(function(){
+                    $(".guidemodal-03").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+                $(".madal-close-text").click(function(){
+                    $(".guidemodal-03").css("display","none");
+                    return false;
+                });
+            });
+
 
             
                // 코스 버튼4
@@ -98,6 +244,53 @@
                 $(".guide-menu04").css("color","#fff");
                 $("#guide-map").attr("src","images/map.png");
                 return false;
+            });
+            $(function(){
+                $(".guidemap-btn04").click(function(){
+                    $(".guidemodal-04").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+        
+                $(".guide-menu04").click(function(){
+                    $(".guidemodal-04").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+                $(".madal-close-text").click(function(){
+                    $(".guidemodal-04").css("display","none");
+                    return false;
+                });
             });
 
                      
@@ -124,6 +317,53 @@
                 $("#guide-map").attr("src","images/map.png");
                 return false;
             });
+            $(function(){
+                $(".guidemap-btn05").click(function(){
+                    $(".guidemodal-05").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+        
+                $(".guide-menu05").click(function(){
+                    $(".guidemodal-05").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+                $(".madal-close-text").click(function(){
+                    $(".guidemodal-05").css("display","none");
+                    return false;
+                });
+            });
 
 
                // 코스 버튼6
@@ -149,29 +389,52 @@
                 $("#guide-map").attr("src","images/map.png");
                 return false;
             });
-
-               // 코스 버튼6
-               $(".guidemap-btn06").mouseover(function(){
-                $(".guide-menu06").css("color","#f2d88f");
-                $("#guide-map").attr("src","images/mapbtn-06_on.png");
-                return false;
-            });
-            $(".guidemap-btn06").mouseout(function(){
-                $(".guide-menu06").css("color","#fff");
-                $("#guide-map").attr("src","images/map.png");
-                return false;
-            });
-    
-    
-            $(".guide-menu06").mouseover(function(){
-                $(".guide-menu06").css("color","#f2d88f");
-                $("#guide-map").attr("src","images/mapbtn-06_on.png");
-                return false;
-            });
-            $(".guide-menu06").mouseout(function(){
-                $(".guide-menu06").css("color","#fff");
-                $("#guide-map").attr("src","images/map.png");
-                return false;
+            $(function(){
+                $(".guidemap-btn06").click(function(){
+                    $(".guidemodal-06").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+        
+                $(".guide-menu06").click(function(){
+                    $(".guidemodal-06").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+                $(".madal-close-text").click(function(){
+                    $(".guidemodal-06").css("display","none");
+                    return false;
+                });
             });
             
                // 코스 버튼7
@@ -196,6 +459,53 @@
                 $(".guide-menu07").css("color","#fff");
                 $("#guide-map").attr("src","images/map.png");
                 return false;
+            });
+            $(function(){
+                $(".guidemap-btn07").click(function(){
+                    $(".guidemodal-07").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+        
+                $(".guide-menu07").click(function(){
+                    $(".guidemodal-07").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+                $(".madal-close-text").click(function(){
+                    $(".guidemodal-07").css("display","none");
+                    return false;
+                });
             });
 
                // 코스 버튼8
@@ -222,6 +532,53 @@
                 return false;
             });
 
+            $(function(){
+                $(".guidemap-btn08").click(function(){
+                    $(".guidemodal-08").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+        
+                $(".guide-menu08").click(function(){
+                    $(".guidemodal-08").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+                $(".madal-close-text").click(function(){
+                    $(".guidemodal-08").css("display","none");
+                    return false;
+                });
+            });
 
             // 코스 버튼9
             $(".guidemap-btn09").mouseover(function(){
@@ -245,6 +602,53 @@
                 $(".guide-menu09").css("color","#fff");
                 $("#guide-map").attr("src","images/map.png");
                 return false;
+            });
+            $(function(){
+                $(".guidemap-btn09").click(function(){
+                    $(".guidemodal-09").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+        
+                $(".guide-menu09").click(function(){
+                    $(".guidemodal-09").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+                $(".madal-close-text").click(function(){
+                    $(".guidemodal-09").css("display","none");
+                    return false;
+                });
             });
 
             // 코스 버튼10
@@ -270,6 +674,53 @@
                 $("#guide-map").attr("src","images/map.png");
                 return false;
             });
+            $(function(){
+                $(".guidemap-btn10").click(function(){
+                    $(".guidemodal-10").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+        
+                $(".guide-menu10").click(function(){
+                    $(".guidemodal-10").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+                $(".madal-close-text").click(function(){
+                    $(".guidemodal-10").css("display","none");
+                    return false;
+                });
+            });
 
             // 코스 버튼11
             $(".guidemap-btn11").mouseover(function(){
@@ -293,6 +744,53 @@
                 $(".guide-menu11").css("color","#fff");
                 $("#guide-map").attr("src","images/map.png");
                 return false;
+            });
+            $(function(){
+                $(".guidemap-btn11").click(function(){
+                    $(".guidemodal-11").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+        
+                $(".guide-menu11").click(function(){
+                    $(".guidemodal-11").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+                $(".madal-close-text").click(function(){
+                    $(".guidemodal-11").css("display","none");
+                    return false;
+                });
             });
 
             // 코스 버튼12
@@ -319,6 +817,53 @@
                 return false;
             });
 
+            $(function(){
+                $(".guidemap-btn12").click(function(){
+                    $(".guidemodal-12").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+        
+                $(".guide-menu12").click(function(){
+                    $(".guidemodal-12").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+                $(".madal-close-text").click(function(){
+                    $(".guidemodal-12").css("display","none");
+                    return false;
+                });
+            });
             // 코스 버튼13
             $(".guidemap-btn13").mouseover(function(){
                 $(".guide-menu13").css("color","#f2d88f");
@@ -341,6 +886,53 @@
                 $(".guide-menu13").css("color","#fff");
                 $("#guide-map").attr("src","images/map.png");
                 return false;
+            });  
+            $(function(){
+                $(".guidemap-btn13").click(function(){
+                    $(".guidemodal-13").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+        
+                $(".guide-menu13").click(function(){
+                    $(".guidemodal-13").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+                $(".madal-close-text").click(function(){
+                    $(".guidemodal-13").css("display","none");
+                    return false;
+                });
             });
 
             // 코스 버튼14
@@ -365,6 +957,53 @@
                 $(".guide-menu14").css("color","#fff");
                 $("#guide-map").attr("src","images/map.png");
                 return false;
+            });
+            $(function(){
+                $(".guidemap-btn14").click(function(){
+                    $(".guidemodal-14").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+        
+                $(".guide-menu14").click(function(){
+                    $(".guidemodal-14").css("display","block");
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        autoplay: {
+                          delay: 2800,
+                          disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            dynamicBullets: true,
+                          },
+                      spaceBetween: 30,
+                      effect: 'fade',
+                    
+                      
+                      });
+                    return false; 
+                });
+                $(".madal-close-text").click(function(){
+                    $(".guidemodal-14").css("display","none");
+                    return false;
+                });
             });
 
      });   
