@@ -129,9 +129,11 @@ body{
     position: absolute;
     left: 20%;
     top: 30%;
+    cursor: pointer;
 }
 .history-t{
     padding-bottom: 30%;
+    cursor: pointer;
 }
 h1{
     font-family: 'EBSHMJESaeronRA';
