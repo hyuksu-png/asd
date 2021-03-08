@@ -1,4 +1,19 @@
-$(function(){
+$(function(){  
+
+    $(window).scroll(function(){
+        if($(this).scrollTop()>2811){
+            $(".navimenu01").css("color","#fff");
+        }
+        else if($(this).scrollTop()>1874){
+            $(".navimenu01").css("color","#fff");
+        }
+        else if($(this).scrollTop()>1874){
+            $(".navimenu01").css("color","#fff");
+        }
+    });
+
+
+
     $(".navimenu01").mouseover(function(){
         $(".navimenu01").css("color","#f2d88f");
         return false;
