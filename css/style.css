@@ -172,6 +172,9 @@ p{
 .guide{
     float: left;
 }
+.guide02{
+    display: none;
+}
 .guide-menus{
     float: left;
     margin-top: 80%;
@@ -208,6 +211,21 @@ p{
     width: 100%;
 }
 /* 지도 버튼 */
+
+.circle{
+    float: left;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background: #d3b460;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 2%;
+    margin-left: 15%;
+    font-size: 1rem;
+  }
 .guidemap-btn01{
     position: absolute;
     width: 11%;
@@ -358,7 +376,44 @@ p{
         padding-bottom: 10%;
     }
     .cloud{
-        top:57.2%;
+        top: 50.5%;
+    }
+    .guide-menus>li{
+        font-size: 1.5rem;
+        width: 12%;
+        padding: 1%;
+        margin: auto;
+        float: left;
+    }
+    .guide-menus02>li{
+        font-size: 1.5rem;
+        width: 12%;
+        padding: 1%;
+        margin: auto;
+        float: left;
+    }
+    .guide{
+        display: none;
+    }
+    .guide02{
+        display: block;
+        width: 100%;
+        height: 30%;
+    }
+    .guide-menus{
+        width: 100%;
+        margin-top: 0;
+    }
+    .guide-menus02{
+        width: 100%;
+        margin-top: 0;
+    
+    }
+    .guideMap{
+        width: 100%;
+    }
+    #guide-map{
+        margin-left: 3%;
     }
 }
 
@@ -452,7 +507,16 @@ p{
     .cloud{
         top: 39.4%;
     }
-
+    .history-t{
+        font-size: 1.2rem;
+    }
+    .sec02-text>p{
+        font-size: 0.5rem;
+        line-height: 1rem;
+    }
+    .sec02-text{
+        top: 20%;
+    }
 }
 /* 414 end */
 
@@ -481,7 +545,7 @@ p{
         position: absolute;
         text-align: center;
         left: 0;
-        top: 40%;
+        top: 20%;
     }
     h1{
         font-family: 'EBSHMJESaeronRA';

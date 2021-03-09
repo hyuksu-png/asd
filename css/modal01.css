@@ -1,6 +1,6 @@
 .guidemodal-01{
     position: absolute;
-    top: 18%;
+    top: 73%;
     left: 35%;
     background-color: rgba(0, 0, 0,0.7);
     height: 500px;
@@ -62,7 +62,7 @@
 }
 .guidemodal-02{
     position: absolute;
-    top: 18%;
+    top: 73%;
     left: 35%;
     background-color: rgba(0, 0, 0,0.7);
     height: 500px;
@@ -71,7 +71,7 @@
 }
 .guidemodal-03{
     position: absolute;
-    top: 18%;
+    top: 73%;
     left: 35%;
     background-color: rgba(0, 0, 0,0.7);
     height: 500px;
@@ -80,7 +80,7 @@
 }
 .guidemodal-04{
     position: absolute;
-    top: 18%;
+    top: 73%;
     left: 35%;
     background-color: rgba(0, 0, 0,0.7);
     height: 500px;
@@ -89,7 +89,7 @@
 }
 .guidemodal-05{
     position: absolute;
-    top: 18%;
+    top: 73%;
     left: 35%;
     background-color: rgba(0, 0, 0,0.7);
     height: 500px;
@@ -98,7 +98,7 @@
 }
 .guidemodal-06{
     position: absolute;
-    top: 18%;
+    top: 73%;
     left: 35%;
     background-color: rgba(0, 0, 0,0.7);
     height: 500px;
@@ -107,7 +107,7 @@
 }
 .guidemodal-07{
     position: absolute;
-    top: 18%;
+    top: 73%;
     left: 35%;
     background-color: rgba(0, 0, 0,0.7);
     height: 500px;
@@ -116,7 +116,7 @@
 }
 .guidemodal-08{
     position: absolute;
-    top: 18%;
+    top: 73%;
     left: 35%;
     background-color: rgba(0, 0, 0,0.7);
     height: 500px;
@@ -125,7 +125,7 @@
 }
 .guidemodal-09{
     position: absolute;
-    top: 18%;
+    top: 73%;
     left: 35%;
     background-color: rgba(0, 0, 0,0.7);
     height: 500px;
@@ -134,7 +134,7 @@
 }
 .guidemodal-10{
     position: absolute;
-    top: 18%;
+    top: 73%;
     left: 35%;
     background-color: rgba(0, 0, 0,0.7);
     height: 500px;
@@ -143,7 +143,7 @@
 }
 .guidemodal-11{
     position: absolute;
-    top: 18%;
+    top: 73%;
     left: 35%;
     background-color: rgba(0, 0, 0,0.7);
     height: 500px;
@@ -152,7 +152,7 @@
 }
 .guidemodal-12{
     position: absolute;
-    top: 18%;
+    top: 73%;
     left: 35%;
     background-color: rgba(0, 0, 0,0.7);
     height: 500px;
@@ -161,7 +161,7 @@
 }
 .guidemodal-13{
     position: absolute;
-    top: 18%;
+    top: 73%;
     left: 35%;
     background-color: rgba(0, 0, 0,0.7);
     height: 500px;
@@ -170,10 +170,80 @@
 }
 .guidemodal-14{
     position: absolute;
-    top: 18%;
+    top: 73%;
     left: 35%;
     background-color: rgba(0, 0, 0,0.7);
     height: 500px;
     float: left;
     display: none;
+}
+@media (max-width: 1025px){
+    
+    .guidemodal-01{
+        top: 74%;
+        left: 25%;
+    }
+    .guidemodal-02{
+        top: 74%;
+        left: 25%;
+    }
+    .guidemodal-03{
+        top: 74%;
+        left: 25%;
+    }
+    .guidemodal-04{
+        top: 74%;
+        left: 25%;
+    }
+    .guidemodal-05{
+        top: 74%;
+        left: 25%;
+    }
+    .guidemodal-06{
+        top: 74%;
+        left: 25%;
+    }
+    .guidemodal-07{
+        top: 74%;
+        left: 25%;
+    }
+    .guidemodal-08{
+        top: 74%;
+        left: 25%;
+    }
+    .guidemodal-09{
+        top: 74%;
+        left: 25%;
+    }
+    .guidemodal-10{
+        top: 74%;
+        left: 25%;
+    }
+    .guidemodal-11{
+        top: 74%;
+        left: 25%;
+    }
+    .guidemodal-12{
+        top: 74%;
+        left: 25%;
+    }
+    .guidemodal-13{
+        top: 74%;
+        left: 25%;
+    }
+    .guidemodal-14{
+        top: 74%;
+        left: 25%;
+    }
+}
+@media (max-width: 769px){
+    .guidemodal-14{
+        position: absolute;
+        top: 76%;
+        left: 25%;
+        background-color: rgba(0, 0, 0,0.7);
+        height: 500px;
+        float: left;
+        display: none;
+    }
 }
