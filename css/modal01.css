@@ -42,19 +42,20 @@
 
 .modal-story{
     float: left;
-    margin-top: 5%;
     margin-left: 2%;
 }
 .modal-story h1{
+    font-size: 2rem;
     color: #f2d88f;
 }
 .modal-story p{
-    
+    float: left;
+    width: 50%;
     font-weight: 200;
 }
 .madal-close-text{
     width: 6%;
-    float: left;
+    float: right;
     font-size: 2rem;
     cursor: pointer;
     text-align: center;

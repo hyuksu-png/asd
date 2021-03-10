@@ -460,6 +460,37 @@ p{
     p{
         font-size: 1rem;
     }
+    .guide-menus>li{
+        font-size: 1.1rem;
+        width: 12%;
+        padding: 1%;
+        margin: auto;
+        float: left;
+        text-align: center;
+
+    }
+    .guide-menus02>li{
+        font-size: 1.1rem;
+        width: 12%;
+        padding: 1%;
+        margin: auto;
+        float: left;
+        text-align: center;
+    }
+    .circle{
+        float: left;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        background: #d3b460;
+        font-family: 'Noto Sans KR', sans-serif;
+        color: white;
+        text-align: center;
+        line-height: 20px;
+        margin-top: 2%;
+        margin-left: 15%;
+        font-size: 1rem;
+      }
 
 }
 
@@ -517,6 +548,19 @@ p{
     .sec02-text{
         top: 20%;
     }
+    /* section02 end */
+
+
+    /* srction03 */
+    .guide-menus>li{
+        font-size: 1rem;
+    }
+    .guide-menus02>li{
+        font-size: 1rem;
+    }
+    .circle{
+        display: none;
+    }
 }
 /* 414 end */
 
@@ -558,6 +602,16 @@ p{
     }
     .cloud{
         top: 42.3%
+    }
+
+    /* section02 end */
+
+    /* section03 */
+    .guide-menus>li{
+        font-size: 15px;
+    }
+    .guide-menus02>li{
+        font-size: 15px;
     }
 
 }
