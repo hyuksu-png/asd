@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20210311</title>
+    <style>
+         #add-btn{
+            padding: 5px 10px;
+            border: 0;
+            background:mediumaquamarine;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        ul{
+            padding: 0;
+            list-style: inside;
+        }
+        li{
+            border-bottom: 1px solid #999;
+            padding: 5px 0;
+        }
+        .active{
+            background: skyblue;
+        }
+    </style>
+</head>
+<body>
+  
+    <h1 id="title">할일 목록</h1>
+    <button id="add-btn">목록추가</button>
+
+    <ul>
+        <li>title</li>
+        <li>title</li>
+        <li>title</li>
+        <li>title</li>
+    </ul>
+
+
+<script>
+
+    
+    let title=document.getElementById('title');
+    let list=document.getElementByID('list');
+    let li=list.getElementsByTagName('li');
+    let addBtn=document.getElementById('add-btn');
+    //변수 초기화
+
+    list.addEventListenr('click',activeItem);
+
+    function activeItem(event){
+        if(event.target.nodeName=='LI'){
+            title.innerHTML=event.target.innerText;
+            //클릭한 노드가 li면
+            for(let i=0; i<event.target.parentNode.childNodes.length; i++){
+                
+            }
+        }
+    }
+</script>
+
+</body>
+</html>

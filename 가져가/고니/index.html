@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+    <div class="container">
+        <div class="line01"></div>
+        <div class="line02"></div>
+        <div class="line03"></div>
+        <div class="line04"></div>
+        <div class="line05"></div>
+        <div class="line06"></div>
+        <div class="line07"></div>
+        <div class="line08"></div>
+        <div class="line09"></div>
+        <div id="box"></div>
+        <div class="end"></div>
+    </div>
+
+    <script>
+        (function(){
+            let box=document.getElementById("box");
+  document.addEventListener('keydown', function(e){
+    const keyCode = e.keyCode;
+    console.log('pushed key ' + e.key);
+
+    if(keyCode == 37){
+        setInterval(function(){
+            box.style.transition='0.2s'
+            box.style.transform=
+        })
+    } else if(keyCode == 9){ // Tab key
+      document.dispatchEvent(new KeyboardEvent('keydown', {key: 't'}));
+      // document.dispatchEvent(new KeyboardEvent('keyup', {key: 't'}));
+    }
+  })
+})();
+    </script>
+</body>
+</html>
